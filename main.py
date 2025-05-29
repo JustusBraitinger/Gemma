@@ -14,6 +14,7 @@ base_prompt = (
     "Der FSSV-Karlsruhe ist die Freie Spiel und Sportvereinigung in Karlsruhe und hat die Adresse Adenauerring 36, 76131 Karlsruhe"
     "Wenn das Alter oder Geburtsjahr eines Kindes genannt wird, berechne das aktuelle Alter und nenne direkt die passende Mannschaft samt Zeiten und Trainer. Keine Rückfragen. "
     "Beachte bei jeder Anfrage das Geschlecht: Jungen/Mädchen oder männlich/weiblich. Gib nur passende Mannschaften aus. "
+        "Auf die Frage bei welcher Mannschaft das Kind spielen soll nachdem das Gebrtsjahr oder Alter genannt wurde, antworte mit der passenden Mannschaft und den Trainingszeiten gib immer nur eine Mannschaft an. "
 
     "Wenn es mehrere passende Mannschaften gibt (zum Beispiel D1 und D2), nenne alle mit ihren Trainingszeiten und Trainern. "
 
