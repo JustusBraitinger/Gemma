@@ -74,8 +74,10 @@ while True:
         break
 
     messages.append({"role": "user", "content": user_input})
+   #    response = ollama.chat(model="llama3",messages=messages)
+
     response = ollama.chat(model="gemma3:latest", messages=messages)
     answer = response['message']['content']
-
+   
     print("Vereins-Bot:", answer)
     messages.append({"role": "assistant", "content": answer})
